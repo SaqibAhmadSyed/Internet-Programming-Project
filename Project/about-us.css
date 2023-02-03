@@ -1,0 +1,27 @@
+
+  body {
+    background-image: url("white-gaming-keyboard.jpg");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.text {
+  padding: 250px;
+  
+}
+
+.text > p {
+  letter-spacing: 5px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 50px;
+  color: black;  
+  padding: 200px 250px 200px 250px;
+  border: 20px inset rgb(61, 61, 61);
+  border-right-color: rgb(255, 255, 255);
+}
+
+
+

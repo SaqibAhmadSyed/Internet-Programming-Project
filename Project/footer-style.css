@@ -1,0 +1,38 @@
+/* footer */
+footer {
+    font-size: 18px;
+    background-color: rgb(61, 61, 61);
+    padding: 2% 2%;
+    margin: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+footer > p {
+    text-align: center;
+    justify-content: center;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+}
+
+footer >  ul > li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+footer >  ul > li > a {
+    transition: all 0.45s ease-in-out 0s;
+}
+
+footer > ul > li > a:hover {
+    opacity: 0.50;
+}
+
+footer > ul > li.licence {
+    text-align: center;
+}

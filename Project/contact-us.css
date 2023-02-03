@@ -1,0 +1,55 @@
+main {
+    background-color: gray;
+}
+
+main > .container {
+    padding: 20px 50px 20px 20px;
+    border-right: 2px solid ;
+}
+
+main > .container > ul {
+    display: flex;
+    float: right;
+}
+
+main > .container > ul > li {
+    list-style: none;
+}
+
+main > .container > ul > li > .phone {
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    position: relative;
+}
+
+main > .container > ul > li > .phone > h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+main > .container > ul > li > .phone > p {
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+main > .container  > ul > li > .mail {
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+}
+
+main > .container > ul > li > .mail > h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+main > .container > ul > li > .mail > p {
+    padding-top: 16px;
+    font-size: 20px;
+}
+
